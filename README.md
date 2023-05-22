@@ -33,4 +33,47 @@ Messages used to communicate the raspberry pi with the Oculus
 
 <https://github.com/security-union/oculus-rc-car-control/tree/main/protobuf>
 
+## Instruction for the project
+
+### To know
+
+First of all, you have to know that some libraries are bound to evolve and that can generate errors during compilation. This tutorial applies an update of some libraries like Rav1e which was previously in version 0.5.1 in this project. We will use version 0.6.1 to be able to compile this project.
+
+### To do
+
+#### on the raspberry pi
+
+    Update and upgrade the system
+
+'''
+sudo apt-get update
+
+sudo apt-get upgrade
+
+'''
+
+    After you need to install cargo
+
+'''
+sudo apt-get install curl
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+source $HOME/.cargo/env
+
+'''
+
+    Modify the Cargo.toml in Oculus-rc-car-control-main/raspberry-pi/video-streaming/Cargo.toml
+
+On the line rav1e = "0.5.1" -> rav1e = "0.6.1"
+
+    Make a cargo build
+
+'''
+cargo build
+'''
+
+#### on the dev machine
+
+#### on unity
 

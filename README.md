@@ -45,14 +45,14 @@ First of all, you have to know that some libraries are bound to evolve and that 
 
 Update and upgrade the system
 
-'''
+''' linux
     sudo apt-get update
     sudo apt-get upgrade
 '''
 
 After you need to install cargo
 
-'''
+''' linux
     sudo apt-get install curl
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
@@ -64,7 +64,7 @@ On the line rav1e = "0.5.1" -> rav1e = "0.6.1"
 
 Make a cargo build
 
-'''
+''' linux
     cargo build
 '''
 
@@ -72,14 +72,14 @@ Make a cargo build
 
 Update and upgrade the system
 
-'''
+''' linux
     sudo apt-get update
     sudo apt-get upgrade
 '''
 
 After you need to install cargo
 
-'''
+''' linux
     sudo apt-get install curl
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
@@ -91,7 +91,7 @@ On the line rav1e = "0.5.1" -> rav1e = "0.6.1"
 
 Make a cargo build
 
-'''
+''' linux
     cargo build
 '''
 

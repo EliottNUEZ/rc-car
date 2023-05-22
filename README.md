@@ -48,7 +48,7 @@ Update and upgrade the system
 <pre><code>
     sudo apt-get update
     sudo apt-get upgrade
-</pre></code>
+</code></pre>
 
 After you need to install cargo
 
@@ -56,7 +56,7 @@ After you need to install cargo
     sudo apt-get install curl
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
-</pre></code>
+</code></pre>
 
 Modify the Cargo.toml in Oculus-rc-car-control-main/raspberry-pi/video-streaming/Cargo.toml
 
@@ -66,7 +66,7 @@ Make a cargo build
 
 <pre><code>
     cargo build
-</pre></code>
+</code></pre>
 
 #### on the dev machine
 
@@ -75,7 +75,7 @@ Update and upgrade the system
 <pre><code>
     sudo apt-get update
     sudo apt-get upgrade
-</pre></code>
+</code></pre>
 
 After you need to install cargo
 
@@ -83,7 +83,7 @@ After you need to install cargo
     sudo apt-get install curl
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
-</pre></code>
+</code></pre>
 
 Modify the Cargo.toml in Oculus-rc-car-control-main/raspberry-pi/video-streaming/Cargo.toml
 
@@ -93,7 +93,7 @@ Make a cargo build
 
 <pre><code>
     cargo build
-</pre></code>
+</code></pre>
 
 #### on unity
 

@@ -45,18 +45,18 @@ First of all, you have to know that some libraries are bound to evolve and that 
 
 Update and upgrade the system
 
-''' linux
+<pre><code>
     sudo apt-get update
     sudo apt-get upgrade
-'''
+</pre></code>
 
 After you need to install cargo
 
-''' linux
+<pre><code>
     sudo apt-get install curl
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
-'''
+</pre></code>
 
 Modify the Cargo.toml in Oculus-rc-car-control-main/raspberry-pi/video-streaming/Cargo.toml
 
@@ -64,26 +64,26 @@ On the line rav1e = "0.5.1" -> rav1e = "0.6.1"
 
 Make a cargo build
 
-''' linux
+<pre><code>
     cargo build
-'''
+</pre></code>
 
 #### on the dev machine
 
 Update and upgrade the system
 
-''' linux
+<pre><code>
     sudo apt-get update
     sudo apt-get upgrade
-'''
+</pre></code>
 
 After you need to install cargo
 
-''' linux
+<pre><code>
     sudo apt-get install curl
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
-'''
+</pre></code>
 
 Modify the Cargo.toml in Oculus-rc-car-control-main/raspberry-pi/video-streaming/Cargo.toml
 
@@ -91,9 +91,9 @@ On the line rav1e = "0.5.1" -> rav1e = "0.6.1"
 
 Make a cargo build
 
-''' linux
+<pre><code>
     cargo build
-'''
+</pre></code>
 
 #### on unity
 
